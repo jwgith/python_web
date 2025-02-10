@@ -25,7 +25,7 @@ class Post(models.Model):
     # ewoirjwoeirjoweijr
     # DFDSFASFFGHTGEERE
     # rtyrytrytrytryt
-    # 수정5 번쨰 5555555555555555
+    # 수정6 번쨰 6666666666666666
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=1)
     updated = models.DateTimeField(auto_now=1)
