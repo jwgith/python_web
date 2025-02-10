@@ -24,6 +24,7 @@ class Post(models.Model):
 
     # ewoirjwoeirjoweijr
     # DFDSFASFFGHTGEERE
+    ###erererererer
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=1)
     updated = models.DateTimeField(auto_now=1)
