@@ -21,8 +21,8 @@ class Post(models.Model):
     slug = models.SlugField(max_length=250, unique_for_date='publish')
     body = models.TextField()
 
-    #jaewoo    jjjjj
-    # DJDJDJDJDJD
+
+    # ewoirjwoeirjoweijr
     # DFDSFASFFGHTGEERE
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=1)
